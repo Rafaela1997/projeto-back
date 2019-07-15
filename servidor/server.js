@@ -25,7 +25,7 @@ server.post('/residencia', (req, res) => {
   .catch(error => console.log(error))
   
 })
-
-server.listen(5000, () => {
-  console.log('Server rodando na porta ', 5000)
+ let PORT = process.env.PORT
+server.listen(PORT, () => {
+  console.log('Server rodando na porta ')
 })
