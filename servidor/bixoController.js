@@ -1,4 +1,4 @@
-  const  connect  = require('./bixoAPIRepository')
+  const  { connect }  = require('./bixoAPIRepository')
 const bixomodel = require('./bixoSchema')
 
 connect()

@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const MONGO_URL = "mongodb://localhost:5000/bixoAPI";
+const MONGO_URL = "mongodb://localhost:27017/bixoAPI";
 
 function connect () {
   mongoose.connect(MONGO_URL,
